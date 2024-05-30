@@ -1,0 +1,32 @@
+.position{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider{
+    background-image: url(./img/1.webp);
+    background-size: cover;
+    height: 69%;
+    width: 100%;
+    animation-direction: alternate;
+    animation: animate 25s infinite;
+}
+@keyframes animate {
+    25%{
+        background-image: url(./img/2.webp);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(./img/3.webp);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(./img/4.webp);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(./5.webp);
+        background-size: cover;
+    }
+}
